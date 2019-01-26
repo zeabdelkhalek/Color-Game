@@ -1,0 +1,71 @@
+body { 
+background-color: #232323 ;
+margin: 0 ;
+font-family: "Roboto";
+text-transform: uppercase ;
+
+ }
+ .square {
+     border-radius: 40px;
+     width: 30% ;
+     background: purple ;
+     padding-bottom: 30%;
+     float: left ; 
+     margin: 1.66% ;
+     transition: all 0.5s ;
+ }
+ #container { 
+     max-width: 600px ;
+     margin: 0 auto ; 
+ }
+ 
+ #stripe { 
+     background-color: white ; 
+     height:  30px ; 
+     text-align: center ;
+     color : black ;
+ }
+
+ .selected { 
+     color: white ;
+     background: steelblue ;
+ }
+ h1 { 
+     padding: 20px 0 ;
+     line-height: 1.1;
+     font-weight: normal ;
+     text-align: center ;
+     color:  white ;
+     background: steelblue ;
+     margin: 0 ;
+     
+ }
+ #colorDisplay { 
+     font-size: 200% ;
+ }
+ button { 
+     text-transform: uppercase ;
+    height: 100% ;
+     border: none ;
+     letter-spacing: 1px;
+     font-size: inherit ;
+     background: none ;
+     font-weight: 700 ;
+     color : steelblue ;
+     transition: all 0.5s ;
+     outline: none ;
+ }
+ button:hover { 
+     color: white ; 
+     background-color: steelblue ;
+ }
+ #message { 
+     display: inline-block ;
+     width: 20% ;
+ }
+ #foot { 
+     margin-bottom: 0; margin-top: 30%;
+ }
+
+
+ /* CopyRight Zellat Abdelkhaleek */
